@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>descripcion</title>
+</head>
+<body>
+  <div class="containerNavBar">
+    <div>
+        <img class="logoNav" src="/img/Logocvp.png" alt="logo" />
+    </div>
+    <div class="textNav">
+        <div class="textoNav">
+            <a href="/pages/paginaDePrueba/">Ver Estudiantes</a>
+        </div>
+        <div class="textoNav"><a href="/cards/cards.html">Cursos</a></div>
+        <div class="textoNav">
+            <a href="/pages/about/index.html">About</a>
+        </div>
+        <!-- Aquí se mostrará solo si el usuario es un administrador -->
+        <div class="textoNav" id="crearCursosLink" >
+            <a href="/pages/courses/courses.html">Crear cursos</a>
+        </div>
+        <div class="textoNav">
+            <a href="/pages/perfil/perfil.html">Ver Perfil</a>
+        </div>
+        <div class="textoNav">
+            <button id="cerrarSesionButton">Cerrar sesión</button>
+        </div>
+    </div>
+</div>
+    <div id="father">
+        <div>
+            <h1 class="fontdesc">Descripción de los cursos</h1>
+        </div>
+
+        <div id="boxdescription">
+        <div id="children">
+        <div class="containerColumns">
+          <p><strong >Título:</strong> <span id="titulo"></span></p>
+          <p><strong>Provincia:</strong> <span id="provincia"></span></p>
+          <p><strong>Institución:</strong> <span id="institucion"></span></p>
+          <p><strong>Actividades:</strong> <span id="actividades"></span></p>
+        </div>
+         <div class="containerInfo">
+          <p><strong>Información:</strong> <span id="informacion"></span></p> 
+         </div>
+        </div>
+        <div class="containerBtnAply"><button id="applyButton">Aplicar</button></div>
+      </div>
+    
+    <script src="decription.js"></script>
+</body>
+</html>

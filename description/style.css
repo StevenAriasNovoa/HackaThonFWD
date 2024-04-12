@@ -1,0 +1,79 @@
+#boxdescription {
+  padding: 3%;
+  background-color: #200a56;
+  color: white;
+  border-radius: 5px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#children {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.containerColumns {
+  width: 200px;
+  border: 1px;
+  align-content: center;
+  padding: 10px;
+}
+
+
+
+.containerInfo {
+  width: 300px; /* Ancho del contenedor */
+  height: auto; /* Altura automática para permitir el desplazamiento */
+  overflow: auto; /* Agrega una barra de desplazamiento si el contenido se desborda */
+  word-wrap: break-word; /* Permite que las palabras se dividan en varias líneas si no caben */
+}
+
+.containerNavBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #200a56;
+}
+
+.logoNav {
+  width: 100px;
+  height: 50px;
+  margin-top: 3%;
+  margin-left: 2%;
+  object-fit: contain;
+}
+.textNav {
+  margin-top: 5%;
+  display: grid;
+  display: flex;
+  gap: 14px;
+  font-style: initial;
+}
+.textoNav > a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+.textoNav:hover > a {
+  color: #fc6;
+}
+
+button {
+  border: 2px solid #200a56;
+  cursor: pointer;
+}
+.fontdesc {
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+#applyButton {
+  border-radius: 5px;
+}
+
+.containerBtnAply {
+  text-align: center;
+}

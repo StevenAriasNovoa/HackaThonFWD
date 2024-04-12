@@ -1,0 +1,82 @@
+
+
+#children{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.course-container{
+    background-color: #200a56;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.containerSearch{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.containerNavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #200a56;
+  }
+
+.logoNav {
+    width: 100px;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 2%;
+    object-fit: contain;
+  }
+  .textNav {
+    margin-top: 5%;
+    display: grid;
+    display: flex;
+    gap: 14px;
+    font-style: initial;
+  }
+  .textoNav > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: smaller;
+  }
+  
+  .textoNav:hover > a{
+     color: #fc6;
+     
+  }.textoNav:hover > button{
+      color: #fc6;
+  }
+ 
+  .description-button{
+    background: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}
+body{
+  background-image: url("img/fondoCir.png");
+  margin: 0;
+  padding: 0;
+}
+.filtrarBoton{
+  background-color: #200a56;
+}
+
+#redirectButton {
+  background-color: #200a56;
+  color: white;
+}
+#cerrarSesionButton{
+  border: none;
+  background-color: #200a56;
+  color: white;
+  cursor: pointer;
+}  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+
+  <div class="containerNavBar">
+    <div>
+        <img class="logoNav" src="/img/Logocvp.png" alt="logo" />
+    </div>
+    <div class="textNav">
+        <div class="textoNav">
+            <a href="/pages/paginaDePrueba/" id="verEstudiantes">Ver Estudiantes</a>
+        </div>
+        <div class="textoNav"><a href="/cards/cards.html">Cursos</a></div>
+        <div class="textoNav">
+            <a href="/pages/about/index.html">About</a>
+        </div>
+        <!-- Aquí se mostrará solo si el usuario es un administrador -->
+        <div class="textoNav" id="crearCursosLink" >
+            <a href="/pages/courses/courses.html">Crear cursos</a>
+        </div>
+        <div class="textoNav">
+            <a href="/pages/perfil/perfil.html">Ver Perfil</a>
+        </div>
+        <div class="textoNav">
+            <button id="cerrarSesionButton">Cerrar sesión</button>
+        </div>
+    </div>
+</div>
+   
+<div id="father">
+  
+    <div class="containerSearch">
+        <input id="textBuscador" placeholder="Buscar Cursos..." type="text" id="search">
+        <button id="filtrarBoton">Buscar</button>
+      </div>
+      <div id="resultadosCursos"></div>
+    </div>
+    <div>
+      <div id="children"></div>
+    </div>
+    <button id="redirectButton"><a>Leer Mas de todos los cursos</a></button>
+</div>
+<script src="cards.js"></script>
+</body>
+</html>

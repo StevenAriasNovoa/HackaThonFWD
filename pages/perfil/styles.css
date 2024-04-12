@@ -1,0 +1,53 @@
+#children > img{
+    width: 100px;
+}
+
+#children > h1{
+    color: white;
+    margin-left: 10%;
+}
+
+#children {
+    display: grid;
+    grid-template-columns: 100px 300px;
+    align-items: center;
+    background-color: #fc6;
+    margin-left: 2opx;
+    border: 1px solid rgb(250, 250, 251);
+}
+
+li {
+    font-size: 25px;
+}
+
+h1 {
+    color: white;
+    }
+
+#paraCirculos {
+    display: flex;
+    justify-content: center;
+}
+
+.circulos {
+    background-color: rgb(43, 26, 114);
+    padding:4%;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#enlinea {
+    display: flex;
+    justify-content: space-around;
+}
+.textPer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    font-size: xx-large;
+}
+.textPer > h1{
+    color: black;
+}
+body{
+    background-image: url();
+}

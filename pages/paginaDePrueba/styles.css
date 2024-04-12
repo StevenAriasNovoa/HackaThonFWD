@@ -1,0 +1,442 @@
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: start;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+
+}
+li:hover{
+    
+    color: orange;
+}
+#titulosRegi {
+    text-align: center;
+     
+}
+
+.adorno {
+    background-color: #200a56;
+    
+}
+  
+  .container1 {
+      height: 30vh;
+    background: rgb(29, 167, 196);
+    background: linear-gradient(
+      90deg,
+      rgba(29, 167, 196, 1) 0%,
+      rgba(39, 108, 162, 1) 100%
+    );
+  }
+  
+  .container2{
+      background-color: white;
+  }
+  .container2 > h1{
+      text-align: center;
+  }
+  .container2 > p{
+      text-align: center;
+  }
+  
+  .containerImage {
+      background-image: url("https://images.pexels.com/photos/4880402/pexels-photo-4880402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      height: 70vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .containerInformationCard{
+      display: flex;
+      gap: 20px;
+      background: rgb(29, 167, 196);
+      background: linear-gradient(
+        90deg,
+        rgba(29, 167, 196, 1) 0%,
+        rgba(39, 108, 162, 1) 100%
+      );
+  }
+  
+  .containerImageCard{
+      width: 50%;
+      
+  }
+  
+  .containerImageCard > img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  .containerPrueba{
+      display: grid;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      gap: 10px;
+      grid-template-columns: repeat(2,1fr);
+      justify-items: center; /* Centrar el contenido horizontalmente */
+      align-items: center; /* Centrar el contenido verticalmente */
+      text-align: center; /* Centrar el texto dentro de los elementos del grid */
+  }
+  
+  .card1{
+      width: 50vh;
+      height: 30vh;
+      position: relative;
+      overflow: hidden;
+      background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20220929/pngtree-happy-group-of-teenagers-having-fun-outdoors-students-togetherness-happiness-photo-image_39432670.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card1::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency here */
+      opacity: 1;
+      transition: opacity 0.3s ease;
+  }
+  .card1:hover::before {
+      opacity: 0;
+  }
+  .card1 > h1 {
+      font-size: 50px;
+      color: transparent; /* Color de texto inicial */
+      transition: color 0.3s ease; /* Agregar una transición al color del texto */
+  }
+  .card1:hover > h1 {
+      color: white; /* Color de texto al hacer hover */
+  }
+  .card2 {
+      width: 50vh;
+      height: 30vh;
+      position: relative;
+      overflow: hidden;
+      background-image: url("https://us.123rf.com/450wm/iakovenko/iakovenko1809/iakovenko180900989/108584594-retrato-de-amigos-felices-divirti%C3%A9ndose-y-haciendo-fotos-grupales-y-sonriendo.jpg?ver=6");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .card2::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency here */
+      opacity: 1;
+      transition: opacity 0.3s ease;
+  }
+  
+  .card2:hover::before {
+      opacity: 0;
+  }
+  
+  .card2 > h1 {
+      font-size: 50px;
+      color: transparent; /* Color de texto inicial */
+      transition: color 0.3s ease; /* Agregar una transición al color del texto */
+  }
+  
+  .card2:hover > h1 {
+      color: white; /* Color de texto al hacer hover */
+  }
+  
+  
+  .card3{
+      width: 50vh;
+      height: 30vh;
+      position: relative;
+      overflow: hidden;
+      background-image: url("https://www.tododisca.com/wp-content/uploads/2023/11/solidaridad-1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card3::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency here */
+      opacity: 1;
+      transition: opacity 0.3s ease;
+  }
+  .card3:hover::before {
+      opacity: 0;
+  }
+  
+  .card3 > h1 {
+      font-size: 50px;
+      color: transparent; /* Color de texto inicial */
+      transition: color 0.3s ease; /* Agregar una transición al color del texto */
+  }
+  
+  .card3:hover > h1 {
+      color: white; /* Color de texto al hacer hover */
+  }
+  .card4{
+      width: 50vh;
+      height: 30vh;
+      position: relative;
+      overflow: hidden;
+      background-image: url("https://porquequieroestarbien.com/sites/default/files/2021-11/Caracter%C3%ADsticas%20persona%20emp%C3%A1tica.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .card4::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency here */
+      opacity: 1;
+      transition: opacity 0.3s ease;
+  }
+  
+  .card4:hover::before {
+      opacity: 0;
+  }
+  
+  .card4 > h1 {
+      font-size: 50px;
+      color: transparent; /* Color de texto inicial */
+      transition: color 0.3s ease; /* Agregar una transición al color del texto */
+  }
+  
+  .card4:hover > h1 {
+      color: white; /* Color de texto al hacer hover */
+  }
+  
+  
+  
+  .containerNavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #200a56;
+  }
+  
+  .logoNav {
+    width: 100px;
+    height: 50px;
+    margin-top: 12%;
+    margin-left: 2%;
+    object-fit: contain;
+  }
+  .textNav {
+    margin-top: 5%;
+    display: grid;
+    display: flex;
+    gap: 14px;
+    font-style: initial;
+  }
+  .textoNav > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: smaller;
+  }
+  
+  .textoNav:hover > a{
+     color: #fc6;
+     
+  }
+  
+  .contactCards{
+      display: grid;
+      justify-content: center;
+      margin-bottom: 30px;
+  }
+  
+  
+  .footerHome {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 10px;
+      padding: 10px;
+      color: white;
+      background-color: rgb(7, 3, 81);
+      justify-content: center; /* Centrar horizontalmente el contenido */
+      text-align: center; /* Centrar el texto dentro de los elementos */
+    }
+    .gridCopy{
+        margin-bottom: 30px;
+    }
+    
+  .redesContainer{
+      display: grid;
+      grid-column: 50px 50px;
+  }
+  .img1 {
+    display: grid;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+  }
+  
+  .imgFooter {
+    display: grid;
+    justify-content: center;
+  }
+  .logos {
+    width: 150px;
+    height: 150px;
+  }
+  .textAbout{
+      color: #fc6;
+  }
+  .infoAbout{
+      color: #0cb7f2;
+  }
+  .textAbout2{
+      color: #ffcc66 ;
+  }
+  .qsomos{
+      text-align: justify;
+  }
+  .gridCopy{
+      margin-top: 33px;
+  }
+  
+  .redesContainer{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+  }
+  .textfooter{
+      font-size: small;
+  }
+  
+  @media(min-width: 768px){
+      .containerImage{
+          height: 150vh;
+      }
+      .containerPrueba{
+          grid-template-columns: repeat(3,1fr);
+      }
+  }
+  body{
+      background-image: url(img/fondoCir.png);
+  }
+  .comp{
+      font-size: small;
+  }
+  .card5{
+      width: 50vh;
+      height: 30vh;
+      position: relative;
+      overflow: hidden;
+      background-image: url("https://img.freepik.com/foto-gratis/estilo-vida-adolescentes-ciudad_23-2149196064.jpg?size=626&ext=jpg&ga=GA1.1.1488620777.1708387200&semt=ais");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .card5::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency here */
+      opacity: 1;
+      transition: opacity 0.3s ease;
+  }
+  
+  .card5:hover::before {
+      opacity: 0;
+  }
+  
+  .card5 > h1 {
+      font-size: 50px;
+      color: transparent; /* Color de texto inicial */
+      transition: color 0.3s ease; /* Agregar una transición al color del texto */
+  }
+  
+  .card5:hover > h1 {
+      color: white; /* Color de texto al hacer hover */
+  }
+  .card6{
+      width: 50vh;
+      height: 30vh;
+      position: relative;
+      overflow: hidden;
+      background-image: url("https://www.shutterstock.com/image-vector/two-businessman-shake-hand-open-260nw-1101764798.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .card6::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency here */
+      opacity: 1;
+      transition: opacity 0.3s ease;
+  }
+  
+  .card6:hover::before {
+      opacity: 0;
+  }
+  
+  .card6 > h1 {
+      font-size: 50px;
+      color: transparent; /* Color de texto inicial */
+      transition: color 0.3s ease; /* Agregar una transición al color del texto */
+  }
+  
+  .card6:hover > h1 {
+      color: white; /* Color de texto al hacer hover */
+  }
+ #cerrarSesionButton{
+    
+    background-color: #200a56;
+    color: white;
+    border: none;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-small;
+    cursor: pointer;
+
+
+
+ }
+ #cerrarSesionButton:hover{
+    color: #fc6;
+ }
+  

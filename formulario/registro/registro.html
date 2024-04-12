@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containerRegister">
+      <div class="gridRegistro">
+        <h1>Registrarse</h1>
+        <div class="containerRegistroImage">
+          <img class="logoNav" src="../../pages/about/img/Logocvp.png" alt="logo" />
+        </div>
+        <label>Nombre:</label>
+        <input type="text" placeholder="Nombre...." id="InputNombre" />
+
+        <label>Correo:</label>
+        <input type="email" placeholder="Correo...." id="inputCorreo" required/>
+
+        <label>Contraseña:</label>
+        <input type="password" placeholder="Contraseña...." id="inputContrasena" />
+
+        <label>Confirmar Contraseña:</label>
+        <input
+          type="password"
+          placeholder="Confirmar Contraseña...."
+          id="inputConfirmPassword"
+        />
+        
+        <button id="btnRegistrarse">Registrarse</button>
+        <a href="/formulario/login/login.html" id="btnIniciarSesion"
+          >Iniciar Sesión</a
+        >
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createcourses</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="ContainerCreateCourses">
+        <div class="gidCourses">
+          <h1 class="textoA">Insertar Curso</h1>
+          <label>Título del curso:</label>
+          <input type="text" placeholder="Título...." id="InputTitulo" />
+
+          <label>Institucion</label>
+          <input type="text" placeholder="Institucion...." id="InputInstitucion" />
+
+          <label>Actividades en el curso</label>
+          <input type="text" placeholder="Si hay disponibles...." id="InputActividades" />
+
+          <label>Informacion</label>
+          <input type="text" placeholder="Información...." id="inputInformacion" />
+  
+          <label>Categoria</label>
+          <input type="text" placeholder="Categoria...." id="InputCategoria" />
+  
+          <label for="dropdown">Selecciona una provincia</label>
+        <select id="SelectProvincia">
+          <option value="Puntarenas">Puntarenas</option>
+          <option value="San Jose">San Jose</option>
+          <option value="Alajuela">Alajuela</option>
+          <option value= "Heredia">Heredia</option>
+          <option value="Guanacaste">Guanacaste</option>
+          <option value="Limon">limon</option>
+          <option value="Alajuela">Alajuela</option>
+        </select>
+  
+          <button id="btnCreateCureses">Crear</button>
+          <a href="/pages/about/index.html" id="btn">Principal</a>
+
+        </div>
+        <script src="courses.js"></script>
+</body>
+</html>
